@@ -1,6 +1,7 @@
 .container {
     background-color: #c00025;
-    width: 100%;
+    width: 300px;
+    height: 400px;
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
@@ -8,8 +9,8 @@
 }
 .display {
     margin-top: 25px;
-    height: 100px;
-    width: 450px;
+    height: 70px;
+    width: 200px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -20,3 +21,15 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  button {
+    background: #3f66c9;
+    color: #fff;
+    margin: 0.2rem;
+    padding: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 2px solid grey;
+    border-radius: 45px;
+    transition: all 0.2s ease-in;
+}
